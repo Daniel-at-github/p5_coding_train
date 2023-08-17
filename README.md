@@ -13,7 +13,22 @@ Para aprender proceso usaré como base los [desafíos de codingtrain](https://th
 
 - p5.js https://p5js.org/reference/
 - proceso https://proceso.cc/
+- proceso (Fuente) https://github.com/nickmcintyre/proceso/tree/main/src
+
+### Por investigar
+
+- pyp5js https://github.com/berinhard/pyp5js
+- py.processing https://py.processing.org/reference/ (No usado)
+
+### Enlaces
+
+- [pyscript releases](https://github.com/pyscript/pyscript/releases)
+- [pyscript.com](https://pyscript.com/) Para ejecutar python en web
 
 ### Desafios
 
-- [001_starfield](001_starfield)
+⚙️ Versión ejecutable en GitHub pages: https://daniel-at-github.github.io/p5_coding_train/
+
+- 001_starfield
+  - 🎦 [Video](https://thecodingtrain.com/challenges/1-starfield)
+  - 🖥️ [Programa](001_starfield)
