@@ -32,3 +32,7 @@ Para aprender proceso usaré como base los [desafíos de codingtrain](https://th
 - 001_starfield
   - 🎦 [Video](https://thecodingtrain.com/challenges/1-starfield)
   - 🖥️ [Programa](001_starfield)
+- 002_menger_sponge
+  - 🎦 [Video](https://thecodingtrain.com/challenges/2-menger-sponge)
+  - 🖥️ [Programa](002_menger_sponge)
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Menger sponge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Menger sponge</h1>
+      <py-config src="./pyscript.toml"></py-config>
+      <py-script src="./sketch.py"></py-script>
+      <main id="canvas"></main>
+      <div id="text">
+          <p>Derived work. Original code and idea from <a href="https://thecodingtrain.com/challenges/2-menger-sponge">thecodingtrain.com - challenges - 2-menger-sponge</a></p>
+          <p>Translated to Python using <a href="https://proceso.cc/">proceso</a> library (interface to <a href="https://p5js.org/">p5.js</a>) </p>
+          <p>Click the cube to iterate the Menger sponge. (Could freeze inthe third click)</p>
+      </div>
+    </div>
+  </body>
+</html>
