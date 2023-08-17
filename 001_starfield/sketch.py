@@ -14,8 +14,8 @@ class Star:
     def __init__(self):
         self.x = p5.random(-p5.width, p5.width)
         self.y = p5.random(-p5.height, p5.height)
-        self.z = p5.random(p5.width)
-        self.pz = self.z
+        self.z = p5.random(p5.width) # Distance from the screen
+        self.pz = self.z # Previous distance
 
     def update(self):
         self.z = self.z - speed
@@ -33,6 +33,7 @@ class Star:
         p5.fill(255)
         p5.no_stroke()
 
+        # x, y remaped from [-1, 1] → screen dimensions
         sx = p5.remap(self.x / self.z, 0, 1, 0, p5.width / 2)
         sy = p5.remap(self.y / self.z, 0, 1, 0, p5.height / 2)
 
@@ -63,7 +64,7 @@ def setup():
 
 def draw():
     global speed
-    speed = p5.remap(p5.mouse_x, 0, p5.width, 0, 50)
+    speed = abs(p5.remap(p5.mouse_x, p5.width, 0, 0, 50, True))
     p5.background(0)
     p5.translate(p5.width / 2, p5.height / 2)
 

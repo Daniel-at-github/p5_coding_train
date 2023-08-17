@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Starfield</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
-    <script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
+    <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
-
-</head>
-<body>
-    <p>Taken from <a href="https://thecodingtrain.com/challenges/1-starfield">thecodingtrain.com - challenges - 1-starfield</a> and translated to <a href="https://proceso.cc/">proceso</a> (python + p5.js) </p>
-    <py-config src="./pyscript.toml"></py-config>
-    <py-script src="./sketch.py"></py-script>
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Starfield</h1>
+      <py-config src="./pyscript.toml"></py-config>
+      <py-script src="./sketch.py"></py-script>
+      <main id="canvas"></main>
+      <div id="text">
+          <p>Derived work. Original code and idea from <a href="https://thecodingtrain.com/challenges/1-starfield">thecodingtrain.com - challenges - 1-starfield</a></p>
+          <p>Translated to Python using <a href="https://proceso.cc/">proceso</a> library (interface to <a href="https://p5js.org/">p5.js</a>) </p>
+          <p>Move the mouse to the left to increase the speed of the starfield.</p>
+      </div>
+    </div>
+  </body>
 </html>
