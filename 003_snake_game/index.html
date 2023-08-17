@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Snake game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Snake game</h1>
+      <py-config src="./pyscript.toml"></py-config>
+      <py-script src="./sketch.py"></py-script>
+      <main id="canvas"></main>
+      <div id="text">
+          <p>Derived work. Original code and idea from <a href="https://thecodingtrain.com/challenges/3-snake-game">thecodingtrain.com - challenges - 3-snake-game</a></p>
+          <p>Translated to Python using <a href="https://proceso.cc/">proceso</a> library (interface to <a href="https://p5js.org/">p5.js</a>) </p>
+          <p>Use key arrows to move the snake.</p>
+          <p>Differs from the original game in:
+          <ul>
+            <li>Keyboard seems buggy in release 2023.05.1 of pyscript.js needs two key presses to register one.</li>
+            <li>Death only is implemented when you byte yourself.</li>
+          </ul>
+          Use key arrows to move the snake. </p>
+      </div>
+    </div>
+  </body>
+</html>

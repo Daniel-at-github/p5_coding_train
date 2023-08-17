@@ -35,4 +35,6 @@ Para aprender proceso usaré como base los [desafíos de codingtrain](https://th
 - 002_menger_sponge
   - 🎦 [Video](https://thecodingtrain.com/challenges/2-menger-sponge)
   - 🖥️ [Programa](002_menger_sponge)
-
+- 003_snake_game
+  - 🎦 [Video](https://thecodingtrain.com/challenges/3-snake-game)
+  - 🖥️ [Programa](003_snake_game)
